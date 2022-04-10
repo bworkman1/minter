@@ -1,4 +1,4 @@
-# Batch Minting NFTs
+# NFT tracking and minting made easy
 
 ## Technology Stack & Tools
 
@@ -22,10 +22,16 @@ $ cd nft_batch_minting
 $ npm install 
 ```
 
-### 3. Start Ganache
+## Create Config File
+Set these settings to your setup
+```
+{
+    "database": {
+        "username": "",
+        "password": "",
+        "host":     "",
+        "name":     ""
+    }
+}
 
-### 4. Migrate Smart Contracts
-`$ truffle migrate --reset`
-
-### 5. Run Batch Script
-`$ node ./scripts/mint.js`
+```
