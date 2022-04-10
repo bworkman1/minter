@@ -16,6 +16,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.0",
     "web3": "^1.6.1"
   }
 }
